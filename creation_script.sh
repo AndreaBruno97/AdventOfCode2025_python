@@ -26,7 +26,7 @@ generate_file()
 mkdir "days"
 cd "days"
 
-for day in $(seq -f "%02g" 1 25)
+for day in $(seq -f "%02g" 1 12)
 do
   mkdir "day_$day"
   cd "day_$day"
